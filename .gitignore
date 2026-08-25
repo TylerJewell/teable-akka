@@ -1,0 +1,17 @@
+target/
+*.class
+
+# The vendored interface's installed dependencies and build output. The sources under
+# webapp/ are committed -- they are what R3 requires the port to ship -- but what pnpm and
+# next put beside them are not, and `pnpm install && pnpm -F @teable/app build` recreates
+# both from the lockfile.
+webapp/node_modules/
+webapp/**/node_modules/
+webapp/**/.next/
+webapp/**/dist/
+webapp/**/*.tsbuildinfo
+webapp/.cache/
+
+# JVM crash dumps
+hs_err_pid*.log
+replay_pid*.log

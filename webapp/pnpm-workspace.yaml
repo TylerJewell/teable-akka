@@ -1,0 +1,10 @@
+packages:
+  - 'apps/nextjs-app'
+  - 'packages/common-i18n'
+  - 'packages/core'
+  - 'packages/eslint-config-bases'
+  - 'packages/formula'
+  - 'packages/icons'
+  - 'packages/openapi'
+  - 'packages/sdk'
+  - 'packages/ui-lib'

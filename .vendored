@@ -14,3 +14,4 @@ webapp/apps/    # teable's Next.js application, vendored to satisfy R3
 webapp/packages/  # the workspace packages that application builds against
 webapp/plugins/   # a workspace sibling the build resolves by name
 webapp/node_modules/  # installed dependencies of the above
+webapp  # the pnpm workspace files at the root of the reused front end
